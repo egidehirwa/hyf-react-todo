@@ -1,0 +1,29 @@
+form {
+    input {
+        padding: 10px 20px;
+        border: 2px solid cyan;
+        border-radius: 5px 0px 0px 5px;
+
+        &::placeholder {
+            color: rgba(198, 198, 198, 0.506);
+        }
+
+        &:focus {
+            border: 2px solid red;
+        }
+    }
+
+    button {
+        padding: 10px 20px;
+        border-radius: 0px 5px 5px 0px;
+        background-color: cyan;
+        color: black;
+        border: none;
+        cursor: pointer;
+        border: 2px solid cyan;
+
+        &:hover {
+            background-color: rgba(0, 255, 255, 0.916);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 5px; */
+    width: 100%;
+    background-color: lightcyan;
+    border-radius: 5px;
+    border-left: 5px solid darkslategray;
+}
